@@ -1,12 +1,15 @@
 {
-    "presets": [
-        ["@babel/env", {
-            "targets": {
-                "browsers": [
-                    "last 5 versions",
-                    "ie >= 8"
-                ]
-            }
-        }]
-    ]
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "browsers": ["last 5 versions", "ie >= 8"]
+        }
+      }
+    ],
+    ["es2016"],
+    "react"
+  ],
+  "plugins": ["babel-plugin-transform-class-properties"]
 }
