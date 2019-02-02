@@ -1,0 +1,31 @@
+{
+  "name": "dotslash2.0_teammortal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priteshtripathi7/dotslash2.0_teamMortal.git"
+  },
+  "author": "Pritesh|Subham|Vartik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priteshtripathi7/dotslash2.0_teamMortal/issues"
+  },
+  "homepage": "https://github.com/priteshtripathi7/dotslash2.0_teamMortal#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
