@@ -1,13 +1,13 @@
 {
   "presets": [
-    [
-      "@babel/env",
-      {
-        "targets": {
-          "browsers": ["last 5 versions", "ie >= 8"]
-        }
-      }
-    ],
+    // [
+    //   "@babel/env",
+    //   {
+    //     "targets": {
+    //       "browsers": ["last 5 versions", "ie >= 8"]
+    //     }
+    //   }
+    // ],
     ["es2016"],
     "react"
   ],
