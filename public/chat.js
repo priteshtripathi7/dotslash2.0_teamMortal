@@ -1,6 +1,6 @@
 $(function(){
     //make connection
-    var socket = io.connect('https://simplechat998.herokuapp.com/');
+    var socket = io.connect('https://simplechatmortal.herokuapp.com/');
 
     //buttons and inputs
 	var message = $("#message")
