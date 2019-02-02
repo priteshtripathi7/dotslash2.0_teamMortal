@@ -1,33 +1,18 @@
 {
-  "name": "dotslash2.0_teammortal",
+  "name": "createsimplechatapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/priteshtripathi7/dotslash2.0_teamMortal.git"
-  },
-  "author": "Pritesh|Subham|Vartik",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/priteshtripathi7/dotslash2.0_teamMortal/issues"
-  },
-  "homepage": "https://github.com/priteshtripathi7/dotslash2.0_teamMortal#readme",
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.5",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-es2016": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "^1.11.0"
-  },
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
-  },
-  "keywords": []
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "socket.io": "^2.2.0"
+  }
 }
